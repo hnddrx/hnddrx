@@ -15,6 +15,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://profile-counter.glitch.me/hnddrx/count.svg" />
+</p>
+
 <!-- GIF Animation -->
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" height="300"/>
@@ -28,6 +32,7 @@
   <img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge&logo=react&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-Expert-yellow?style=for-the-badge&logo=javascript&logoColor=white" />
 </p>
+
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=hnddrx&show_icons=true&theme=radical" />
