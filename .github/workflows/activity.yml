@@ -17,10 +17,16 @@ jobs:
         with:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push changes
+      - name: Check for changes and commit
         run: |
           git config --global user.name "hnddrx"
           git config --global user.email "your.email@example.com"
           git add README.md
-          git commit -m "🔄 Auto-update GitHub activity"
-          git push
+          
+          # Check if there are changes before committing
+          if git diff --cached --exit-code; then
+            echo "No changes detected, skipping commit."
+          else
+            git commit -m "🔄 Auto-update GitHub activity"
+            git push
+          fi
