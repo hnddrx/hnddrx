@@ -58,18 +58,19 @@
 
 
 <!-- Python Code Block with Syntax Highlighting Section -->
-<pre class="language-python" style="background-color: #2e2e2e; font-family: 'Fira Code', monospace; padding: 20px; border-radius: 10px; font-size: 1rem;">
-  class Henddrx():
-      def __init__(self):
-          self.name = "Wren Macayan"
-          self.role = "Odoo Architect & Backend Dev"
-          self.skills = ["Odoo", "Python", "PostgreSQL", "Node.js", "MongoDB", "Automation", "JavaScript", "ReactJS"]
-          self.fun_fact = "I break things just to fix them better 😆"
+```python
+class Henddrx:
+    def __init__(self):
+        self.name = "Wren Macayan"
+        self.role = "Odoo Architect & Backend Dev"
+        self.skills = [
+            "Odoo", "Python", "PostgreSQL", "Node.js", "MongoDB", 
+            "Automation", "JavaScript", "ReactJS"
+        ]
+        self.fun_fact = "I break things just to fix them better 😆"
 
-      def code(self):
-          print("Building awesome backend solutions... 🚀")
+    def code(self):
+        print("Building awesome backend solutions... 🚀")
 
-  me = Henddrx()
-  me.code()
-</pre>
-
+me = Henddrx()
+me.code()
