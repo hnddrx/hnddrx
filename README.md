@@ -64,13 +64,27 @@ class Henddrx:
         self.name = "Wren Macayan"
         self.role = "Odoo Architect & Backend Dev"
         self.skills = [
-            "Odoo", "Python", "PostgreSQL", "Node.js", "MongoDB", 
+            "Odoo", "Python", "PostgreSQL", "Node.js", "MongoDB",
             "Automation", "JavaScript", "ReactJS"
         ]
         self.fun_fact = "I break things just to fix them better 😆"
 
+    def introduce(self):
+        print(f"Hi, I am {self.name}.")
+        print(f"My role is {self.role}.")
+        print(f"{self.fun_fact}")
+    
+    def show_skills(self):
+        print("My top skills include:")
+        for skill in self.skills:
+            print(f"- {skill}")
+
     def code(self):
         print("Building awesome backend solutions... 🚀")
 
+
+# Instantiate and execute the class methods in sequence
 me = Henddrx()
+me.introduce()
+me.show_skills()
 me.code()
