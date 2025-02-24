@@ -3,6 +3,17 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=FF4500&center=true&vCenter=true&width=800&lines=print(%22Hello%2C+I'm+Hnddrx+%F0%9F%91%8B%22);Odoo+Architect+%7C+Backend+Wizard+%F0%9F%94%A8;Optimizing+Databases+Like+a+Pro+%E2%9C%85;Automating+Everything+is+My+Superpower+%E2%9C%A8;Let's+Build+Something+Awesome!">
 </h1>
 
+<p align="center">
+  <a href="mailto:macayanwren@gmail.com">
+    <img src="https://img.shields.io/badge/Email-macayanwren%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/hnddrx">
+    <img src="https://img.shields.io/badge/LinkedIn-Hnddrx-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://devvv-wren.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Now-ff69b4?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
 
 <!-- GIF Animation -->
 <p align="center">
@@ -36,6 +47,7 @@
   </a>
 </p>
 
+
 ---
 
 ## 🚀 **Who Am I?**
@@ -52,3 +64,7 @@ class Henddrx:
 
 me = Henddrx()
 me.code()
+
+
+
+
