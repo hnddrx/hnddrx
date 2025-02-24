@@ -1,0 +1,26 @@
+name: Update GitHub Activity
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update Activity Readme
+        uses: jason-castro/github-activity-readme@v1
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "hnddrx"
+          git config --global user.email "your.email@example.com"
+          git add README.md
+          git commit -m "🔄 Auto-update GitHub activity"
+          git push
