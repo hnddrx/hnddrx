@@ -2,9 +2,9 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
 
 <!-- Cool Animated Header -->
-<h1 align="center" style="font-family: 'Fira Code', monospace; font-size: 2rem; color: #FF4500;">
+<!-- <h1 align="center" style="font-family: 'Fira Code', monospace; font-size: 2rem; color: #FF4500;">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=FF4500&center=true&vCenter=true&width=800&lines=print(%22Hello%2C+I'm+Hnddrx%22);Odoo+Architect+%7C+Backend+Wizard;Optimizing+Databases;Automating+Everything+is+My+thing;Let's+Build+Something+Awesome!" alt="Animated Typing Text">
-</h1>
+</h1> -->
 
 <!-- Joke Section -->
 <p align="center">
