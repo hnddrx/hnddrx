@@ -13,7 +13,7 @@
 
 <!-- Professional Badges -->
 <p>
-  <a href="https://devvv-wren.vercel.app">
+  <a href="https://wrenhendrick.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://www.linkedin.com/in/hnddrx">
